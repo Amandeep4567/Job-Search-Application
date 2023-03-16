@@ -11,11 +11,20 @@ const Home = () => {
         </p>
         <div className="main-details">
           <input
-            type="text"
+            className="job_title"
+            type="search"
             name="job_title"
             id="job-title"
             placeholder="Job Title"
           />
+          <input
+            className="place"
+            type="search"
+            name="place"
+            id="place"
+            placeholder="Area/Region"
+          />
+          <button>Search</button>
         </div>
       </div>
       <div className="main-image">

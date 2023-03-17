@@ -1,7 +1,9 @@
 const JobDetails = () => {
   return (
     <div className="job-details">
-      <p>JobDetails</p>
+      <div className="cards-details">
+        <div></div>
+      </div>
     </div>
   );
 };

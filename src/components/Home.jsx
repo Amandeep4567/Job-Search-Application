@@ -17,13 +17,6 @@ const Home = () => {
             id="job-title"
             placeholder="Job Title"
           />
-          <input
-            className="place"
-            type="search"
-            name="place"
-            id="place"
-            placeholder="Area/Region"
-          />
           <button>Search</button>
         </div>
       </div>

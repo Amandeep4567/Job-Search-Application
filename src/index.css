@@ -82,27 +82,25 @@
 }
 
 .main-details input {
-  color: #ffffff;
+  color: #121212;
   width: 260px;
   padding: 7px;
   font-size: 18px;
   font-weight: 500;
   margin-top: 30px;
   border-radius: 20px;
-  background-color: #b4b4b4;
+  background-color: #f8f8f8;
   border: transparent;
 }
 
 .main-details input::placeholder {
   color: #545454;
+  opacity: 0.7;
+  padding-left: 10px;
 }
 
 .main-details .job_title {
   margin-right: 10px;
-}
-
-.main-details .place {
-  margin-left: 10px;
 }
 
 .main-details button {
